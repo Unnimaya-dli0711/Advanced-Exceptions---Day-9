@@ -13,7 +13,7 @@ public class MultipleFileReading {
                 String line;
                 while ((line = reader.readLine()) != null) {
                     System.out.println(line);
-                } 
+                }
             } catch (IOException e) {
                 System.out.println("File Exception"+e);
             }
